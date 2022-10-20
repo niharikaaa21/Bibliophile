@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Arc?>
+
+<AnchorPane prefHeight="380.0" prefWidth="417.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Button layoutX="289.0" layoutY="129.0" mnemonicParsing="false" text="Button" />
+      <Button layoutX="217.0" layoutY="129.0" mnemonicParsing="false" text="Button" />
+      <Arc fill="DODGERBLUE" layoutX="142.0" layoutY="161.0" length="270.0" radiusX="106.0" radiusY="101.0" startAngle="45.0" stroke="BLACK" strokeType="INSIDE" type="ROUND" />
+   </children>
+</AnchorPane>

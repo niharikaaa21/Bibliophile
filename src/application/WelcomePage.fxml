@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.SceneController">
+   <children>
+      <Label layoutX="156.0" layoutY="14.0" prefHeight="83.0" prefWidth="288.0" text="WELCOME TO">
+         <font>
+            <Font name="Bookman Old Style Bold" size="39.0" />
+         </font>
+      </Label>
+      <Label layoutX="113.0" layoutY="104.0" prefHeight="70.0" prefWidth="373.0" text="BIBLIOPHILE!" textFill="#912020">
+         <font>
+            <Font name="Eras Demi ITC" size="57.0" />
+         </font>
+      </Label>
+      <Button layoutX="77.0" layoutY="276.0" mnemonicParsing="false" onAction="#switchToCreateRecord" prefHeight="83.0" prefWidth="178.0" text="CREATE NEW ENTRY">
+         <font>
+            <Font name="Franklin Gothic Demi Italic" size="15.0" />
+         </font>
+      </Button>
+      <Button layoutX="354.0" layoutY="276.0" mnemonicParsing="false" onAction="#switchToSearchRecord" prefHeight="83.0" prefWidth="190.0" text="SEARCH EXISTING ENTRY">
+         <font>
+            <Font name="Franklin Gothic Demi Italic" size="15.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
